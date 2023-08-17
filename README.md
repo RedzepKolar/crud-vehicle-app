@@ -4,7 +4,7 @@
 - npm install
 
 ## Second, open two terminals. In one of them run json server:
-json-server --watch db.json --port 3003 --routes routes.json
+json-server --watch src/app/api/db.json --port 3003 --routes src/app/api/routes.json
 
 ## In the second one run the development server:
 ```bash
