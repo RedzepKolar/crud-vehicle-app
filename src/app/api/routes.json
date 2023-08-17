@@ -1,0 +1,11 @@
+{
+  "/api/vehicleMakes": "/vehicleMakes",
+  "/api/vehicleMakes?id=:id": "/vehicleMakes/:id",
+  "/api/vehicleMakes/:id": "/vehicleMakes/:id",
+  "/api/vehicleModels": "/vehicleModels",
+  "/api/vehicleModels?id=:id": "/vehicleModels/:id",
+  "/api/vehicleModels?make=:make": "/vehicleModels/:make",
+  "/api/vehicleModels/:id": "/vehicleModels/:id"
+  
+
+}

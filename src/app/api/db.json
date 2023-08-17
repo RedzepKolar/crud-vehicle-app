@@ -1,0 +1,418 @@
+{
+  "vehicleMakes": [
+    {
+      "name": "Acura",
+      "abrv": "AC",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Alfa Romeo",
+      "abrv": "AR"
+    },
+    {
+      "id": 3,
+      "name": "Aston Martin",
+      "abrv": "AM"
+    },
+    {
+      "id": 4,
+      "name": "Audi",
+      "abrv": "AD"
+    },
+    {
+      "id": 5,
+      "name": "Bentley",
+      "abrv": "BT"
+    },
+    {
+      "id": 6,
+      "name": "BMW",
+      "abrv": "BM"
+    },
+    {
+      "id": 7,
+      "name": "Buick",
+      "abrv": "BK"
+    },
+    {
+      "id": 8,
+      "name": "Cadillac",
+      "abrv": "CD"
+    },
+    {
+      "id": 9,
+      "name": "Chevrolet",
+      "abrv": "CH"
+    },
+    {
+      "id": 10,
+      "name": "Chrysler",
+      "abrv": "CY"
+    },
+    {
+      "id": 11,
+      "name": "Dodge",
+      "abrv": "DG"
+    },
+    {
+      "id": 12,
+      "name": "Ferrari",
+      "abrv": "FR"
+    },
+    {
+      "id": 13,
+      "name": "Fiat",
+      "abrv": "FT"
+    },
+    {
+      "id": 14,
+      "name": "Ford",
+      "abrv": "FD"
+    },
+    {
+      "id": 15,
+      "name": "Genesis",
+      "abrv": "GN"
+    },
+    {
+      "id": 16,
+      "name": "GMC",
+      "abrv": "GC"
+    },
+    {
+      "id": 17,
+      "name": "Honda",
+      "abrv": "HD"
+    },
+    {
+      "id": 18,
+      "name": "Hyundai",
+      "abrv": "HY"
+    },
+    {
+      "id": 19,
+      "name": "Infiniti",
+      "abrv": "IF"
+    },
+    {
+      "id": 20,
+      "name": "Jaguar",
+      "abrv": "JG"
+    }
+  ],
+  "vehicleModels": [
+    {
+      "id": 1,
+      "name": "Q5",
+      "makeId": "Audi",
+      "abrv": "Q5"
+    },
+    {
+      "id": 2,
+      "name": "Q7",
+      "makeId": "Audi",
+      "abrv": "Q7"
+    },
+    {
+      "id": 3,
+      "name": "A4",
+      "makeId": "Audi",
+      "abrv": "A4"
+    },
+    {
+      "id": 4,
+      "name": "X3",
+      "makeId": "BMW",
+      "abrv": "X3"
+    },
+    {
+      "id": 5,
+      "name": "X5",
+      "makeId": "BMW",
+      "abrv": "X5"
+    },
+    {
+      "id": 6,
+      "name": "X6",
+      "makeId": "BMW",
+      "abrv": "X6"
+    },
+    {
+      "id": 7,
+      "name": "Enclave",
+      "makeId": "Buick",
+      "abrv": "ENC"
+    },
+    {
+      "id": 8,
+      "name": "Encore",
+      "makeId": "Buick",
+      "abrv": "ENC"
+    },
+    {
+      "id": 9,
+      "name": "Regal",
+      "makeId": "Buick",
+      "abrv": "REG"
+    },
+    {
+      "id": 10,
+      "name": "CTS",
+      "makeId": "Cadillac",
+      "abrv": "CTS"
+    },
+    {
+      "id": 11,
+      "name": "Escalade",
+      "makeId": "Cadillac",
+      "abrv": "ESL"
+    },
+    {
+      "id": 12,
+      "name": "XT5",
+      "makeId": "Cadillac",
+      "abrv": "XT5"
+    },
+    {
+      "id": 13,
+      "name": "Camaro",
+      "makeId": "Chevrolet",
+      "abrv": "CAM"
+    },
+    {
+      "id": 14,
+      "name": "Corvette",
+      "makeId": "Chevrolet",
+      "abrv": "COR"
+    },
+    {
+      "id": 15,
+      "name": "Impala",
+      "makeId": "Chevrolet",
+      "abrv": "IMP"
+    },
+    {
+      "id": 16,
+      "name": "300",
+      "makeId": "Chrysler",
+      "abrv": "300"
+    },
+    {
+      "id": 17,
+      "name": "Pacifica",
+      "makeId": "Chrysler",
+      "abrv": "PAC"
+    },
+    {
+      "id": 18,
+      "name": "Voyager",
+      "makeId": "Chrysler",
+      "abrv": "VOY"
+    },
+    {
+      "id": 19,
+      "name": "Challenger",
+      "makeId": "Dodge",
+      "abrv": "CHL"
+    },
+    {
+      "id": 20,
+      "name": "Durango",
+      "makeId": "Dodge",
+      "abrv": "DRG"
+    },
+    {
+      "id": 21,
+      "name": "Chiron",
+      "makeId": "Bugatti",
+      "abrv": "CHR"
+    },
+    {
+      "id": 22,
+      "name": "Veyron",
+      "makeId": "Bugatti",
+      "abrv": "VEY"
+    },
+    {
+      "id": 23,
+      "name": "La Voiture Noire",
+      "makeId": "Bugatti",
+      "abrv": "LVN"
+    },
+    {
+      "id": 24,
+      "name": "F150",
+      "makeId": "Ford",
+      "abrv": "F15"
+    },
+    {
+      "id": 25,
+      "name": "Mustang",
+      "makeId": "Ford",
+      "abrv": "MST"
+    },
+    {
+      "id": 26,
+      "name": "Focus",
+      "makeId": "Ford",
+      "abrv": "FCS"
+    },
+    {
+      "id": 27,
+      "name": "G80",
+      "makeId": "Genesis",
+      "abrv": "G80"
+    },
+    {
+      "id": 28,
+      "name": "G90",
+      "makeId": "Genesis",
+      "abrv": "G90"
+    },
+    {
+      "id": 29,
+      "name": "GV80",
+      "makeId": "Genesis",
+      "abrv": "GV8"
+    },
+    {
+      "id": 30,
+      "name": "Sierra",
+      "makeId": "GMC",
+      "abrv": "SIE"
+    },
+    {
+      "id": 31,
+      "name": "Canyon",
+      "makeId": "GMC",
+      "abrv": "CNY"
+    },
+    {
+      "id": 32,
+      "name": "Acadia",
+      "makeId": "GMC",
+      "abrv": "ACA"
+    },
+    {
+      "id": 33,
+      "name": "Civic",
+      "makeId": "Honda",
+      "abrv": "CVC"
+    },
+    {
+      "id": 34,
+      "name": "Accord",
+      "makeId": "Honda",
+      "abrv": "ACD"
+    },
+    {
+      "id": 35,
+      "name": "CR-V",
+      "makeId": "Honda",
+      "abrv": "CRV"
+    },
+    {
+      "id": 36,
+      "name": "Santa Fe",
+      "makeId": "Hyundai",
+      "abrv": "SF"
+    },
+    {
+      "id": 37,
+      "name": "Tucson",
+      "makeId": "Hyundai",
+      "abrv": "TUC"
+    },
+    {
+      "id": 38,
+      "name": "Kona",
+      "makeId": "Hyundai",
+      "abrv": "KON"
+    },
+    {
+      "id": 39,
+      "name": "Q50",
+      "makeId": "Infiniti",
+      "abrv": "Q50"
+    },
+    {
+      "id": 40,
+      "name": "Q60",
+      "makeId": "Infiniti",
+      "abrv": "Q60"
+    },
+    {
+      "id": 41,
+      "name": "QX50",
+      "makeId": "Infiniti",
+      "abrv": "QX5"
+    },
+    {
+      "id": 42,
+      "name": "XE",
+      "makeId": "Jaguar",
+      "abrv": "XE"
+    },
+    {
+      "id": 43,
+      "name": "XF",
+      "makeId": "Jaguar",
+      "abrv": "XF"
+    },
+    {
+      "id": 44,
+      "name": "Acura MDX",
+      "makeId": "Acura",
+      "abrv": "MDX"
+    },
+    {
+      "id": 45,
+      "name": "Acura RDX",
+      "makeId": "Acura",
+      "abrv": "RDX"
+    },
+    {
+      "id": 46,
+      "name": "Acura TLX",
+      "makeId": "Acura",
+      "abrv": "TLX"
+    },
+    {
+      "id": 47,
+      "name": "Giulia Quadrifoglio",
+      "makeId": "Alfa Romeo",
+      "abrv": "GQ"
+    },
+    {
+      "id": 48,
+      "name": "Giulia Ti",
+      "makeId": "Alfa Romeo",
+      "abrv": "GT"
+    },
+    {
+      "id": 49,
+      "name": "Stelvio",
+      "makeId": "Alfa Romeo",
+      "abrv": "St"
+    },
+    {
+      "id": 50,
+      "name": "DBS",
+      "makeId": "Aston Martin",
+      "abrv": "DBS"
+    },
+    {
+      "id": 51,
+      "name": "Valkyrie",
+      "makeId": "Aston Martin",
+      "abrv": "VK"
+    },
+    {
+      "id": 52,
+      "name": "Valhalla",
+      "makeId": "Aston Martin",
+      "abrv": "VH"
+    }
+  ]
+}
